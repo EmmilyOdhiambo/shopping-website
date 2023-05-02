@@ -1,0 +1,86 @@
+.body{
+    /* overflow: hidden; */
+    min-height: 100vh;
+
+}
+.heading ul {
+    display: flex;
+    gap: 7%;
+    list-style: none;
+    color: blue;
+    text-align: center;
+    padding-left: 33%;
+}
+.page1{
+    display: flex;
+    padding-top: 10%;
+    background-color: blueviolet;
+    padding-left: 20%;
+}
+.text{
+    padding-top: 10%;
+    color: white;
+}
+#but{
+    border-radius:0px 20px;
+    padding: 10px;
+    background-color: deeppink;
+}
+.page2{
+    text-align: center;
+    padding-top: 7%;
+}
+.images{
+    display: flex;
+    gap: 5%;
+}
+.pag3{
+    display: flex;
+    padding-top: 5%;
+    padding-left: 5%;
+}
+.page3{
+    text-align: center;
+
+}
+.view{
+    padding: 15px 20px;
+    background-color: pink;
+    font-size: 30px;
+}
+.page4{
+    text-align: center;
+}
+.footer{
+    display: flex;
+    gap: 10%;
+    list-style: none;
+    padding-left: 7%;
+}
+.email{
+    padding: 10px 30px;
+    background-color: white;
+}
+.sub{
+    padding: 10px 20px;
+    background-color: hotpink;
+}
+
+@media only screen and (max-width: 600px) {
+    .heading ul {
+        display: flex none;
+        gap: 4%;
+        list-style: none;
+        color: blue;
+        text-align: center;
+        padding-left: 15%;
+    }
+    .body{
+    border: 0;
+    font-size: 100%;
+    margin: 0;
+    outline: 0;
+    padding: 0;
+
+}
+}
